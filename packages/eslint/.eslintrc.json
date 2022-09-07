@@ -41,6 +41,7 @@
     "@typescript-eslint/explicit-module-boundary-types": "error",
     "@typescript-eslint/no-empty-function": ["error", { "allow": ["arrowFunctions"] }],
     "@typescript-eslint/no-explicit-any": "error",
+    "@typescript-eslint/no-namespace": ["error", { "allowDeclarations": true }],
     "@typescript-eslint/prefer-for-of": "error",
     "@typescript-eslint/prefer-nullish-coalescing": "error",
     "@typescript-eslint/prefer-optional-chain": "error",
