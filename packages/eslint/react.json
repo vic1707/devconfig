@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json.schemastore.org/eslintrc",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "extends": [".eslintrc", "plugin:react/recommended"],
+  "rules": {
+    "react/no-unused-prop-types": "error",
+    "react/no-unused-state": "error",
+    "react/react-in-jsx-scope": "off",
+    "react/sort-prop-types": "error"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}

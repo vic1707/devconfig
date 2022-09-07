@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/eslintrc",
+  "plugins": ["vitest"],
+  "extends": [".eslintrc"],
+  "rules": {
+    "vitest/no-skipped-tests": "error",
+    "vitest/max-nested-describe": [
+      "error",
+      {
+        "max": 3
+      }
+    ],
+    "vitest/no-conditional-in-tests": "error",
+    "vitest/no-identical-title": "error"
+  }
+}

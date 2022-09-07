@@ -1,0 +1,28 @@
+{
+  "author": "Victor LEFEBVRE",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vic1707/devconfig.git"
+  },
+  "scripts": {
+    "format": "prettier --write \"**/*.{ts,tsx,md,mdx,scss,css,json,yml}\"",
+    "upgrade-packages": "yarn upgrade-interactive"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@vic1707/eslint-config": "*",
+    "@vic1707/prettier": "*",
+    "prettier": "^2.7.1",
+    "turbo": "^1.4.5"
+  },
+  "packageManager": "yarn@4.0.0-rc.15",
+  "engines": {
+    "node": ">=18.8.0",
+    "npm": ">=8.19.1",
+    "yarn": ">=4.0.0"
+  },
+  "prettier": "@vic1707/prettier"
+}
