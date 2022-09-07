@@ -97,8 +97,6 @@
     "import/no-named-export": "off", // we want everything to be a named export
     // Forbid a module from importing itself
     "import/no-self-import": "error",
-    // Forbid the use of unresolved imports
-    "import/no-unresolved": [2, { "commonjs": true }],
     // Require modules with a single export to use a default export
     "import/prefer-default-export": "off" // want everything to be named
   }
