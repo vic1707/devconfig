@@ -8,6 +8,9 @@
     "type": "git",
     "url": "git+https://github.com/vic1707/devconfig.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "prettier": ">=2.7.0"
   }
