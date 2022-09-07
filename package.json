@@ -7,12 +7,14 @@
   },
   "scripts": {
     "format": "prettier --write \"**/*.{ts,tsx,md,mdx,scss,css,json,yml}\"",
+    "publish": "changeset publish",
     "upgrade-packages": "yarn upgrade-interactive"
   },
   "workspaces": [
     "packages/*"
   ],
   "devDependencies": {
+    "@changesets/cli": "^2.24.4",
     "@vic1707/eslint-config": "*",
     "@vic1707/prettier": "*",
     "prettier": "^2.7.1",
