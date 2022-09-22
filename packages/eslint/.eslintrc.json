@@ -14,7 +14,7 @@
   },
   "rules": {
     "prettier/prettier": "error",
-    "complexity": ["error", 2],
+    "prefer-template" : "error",
     // make sure imports are sorted alphabetically
     "simple-import-sort/exports": "error",
     "simple-import-sort/imports": "error",
