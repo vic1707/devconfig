@@ -14,11 +14,11 @@
     "packages/*"
   ],
   "devDependencies": {
-    "@changesets/cli": "^2.24.4",
+    "@changesets/cli": "^2.25.0",
     "@vic1707/eslint-config": "*",
     "@vic1707/prettier": "*",
     "prettier": "^2.7.1",
-    "turbo": "^1.4.5"
+    "turbo": "^1.5.6"
   },
   "packageManager": "yarn@4.0.0-rc.15",
   "engines": {
