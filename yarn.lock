@@ -792,6 +792,17 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@vic1707/stylelint-config@workspace:packages/stylelint":
+  version: 0.0.0-use.local
+  resolution: "@vic1707/stylelint-config@workspace:packages/stylelint"
+  dependencies:
+    stylelint-config-prettier: "npm:^9.0.3"
+    stylelint-config-standard: "npm:^29.0.0"
+  peerDependencies:
+    stylelint: ^14.14.0
+  languageName: unknown
+  linkType: soft
+
 "@vic1707/tsconfig@workspace:packages/tsconfig":
   version: 0.0.0-use.local
   resolution: "@vic1707/tsconfig@workspace:packages/tsconfig"
@@ -3478,6 +3489,38 @@ __metadata:
   dependencies:
     inline-style-parser: "npm:0.1.1"
   checksum: ffd915079324b072842ef44ef2063cee963fc4f43f12dbbb8678311ac529b280cfe21a3bb2db59154a590c223d8d86ed8906eeb3b983a303ff3f187aa04cd9cd
+  languageName: node
+  linkType: hard
+
+"stylelint-config-prettier@npm:^9.0.3":
+  version: 9.0.3
+  resolution: "stylelint-config-prettier@npm:9.0.3"
+  peerDependencies:
+    stylelint: ">=11.0.0"
+  bin:
+    stylelint-config-prettier: bin/check.js
+    stylelint-config-prettier-check: bin/check.js
+  checksum: 1dc67214b4fde77951862314fc8a92bd78a38d604dcad63b150c3b9133293501fbd0c0da2bd2efb9e18c5db0928bbb91551aedc631fe2243dea7b9dd7b2bac79
+  languageName: node
+  linkType: hard
+
+"stylelint-config-recommended@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "stylelint-config-recommended@npm:9.0.0"
+  peerDependencies:
+    stylelint: ^14.10.0
+  checksum: a84d2b8e2a3bfb9835a48d8044b5345a79e609c9945e4241b8b0cde3a2863581e40cdd9e84f587aa207f843e7f37b38a65958d76a12e4f091eee2b6132af9249
+  languageName: node
+  linkType: hard
+
+"stylelint-config-standard@npm:^29.0.0":
+  version: 29.0.0
+  resolution: "stylelint-config-standard@npm:29.0.0"
+  dependencies:
+    stylelint-config-recommended: "npm:^9.0.0"
+  peerDependencies:
+    stylelint: ^14.14.0
+  checksum: c1bb49e4aa474b1d85bff3f7adb359cbc345d3e87a103ad3607f486685c2bd37b9f2a785aa30bf3b93c9fabb4b9c22eefc7da535749ebcf5f609b4f8383d25b0
   languageName: node
   linkType: hard
 
