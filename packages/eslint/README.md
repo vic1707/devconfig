@@ -20,10 +20,20 @@ module.exports = {
 ```
 
 If you're using typescript you'll want to add some extra rules to your `tsconfig.json` file
+
 ```json
 {
   // existing config
-  "include": [/* existing source dirs*/, ".eslintrc.js"],
+  "include": [".eslintrc.js" /* existing source dirs*/]
+}
+```
+
+Here are the scripts I use to lint my code:
+
+```json
+{
+  "lint": "eslint src --ext .ts,.tsx",
+  "lint:fix": "eslint src --ext .ts,.tsx --fix"
 }
 ```
 

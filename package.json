@@ -6,8 +6,8 @@
     "url": "git+https://github.com/vic1707/devconfig.git"
   },
   "scripts": {
-    "format": "prettier \"**/*.{ts,tsx,md,mdx,scss,css,json,yml}\" -c",
-    "format:fix": "prettier --write \"**/*.{ts,tsx,md,mdx,scss,css,json,yml}\" -c",
+    "format": "prettier --check \"**/*.{js,jsx,ts,tsx,md,mdx,scss,css,json,yml}\" -c",
+    "format:fix": "prettier --write \"**/*.{js,jsx,ts,tsx,md,mdx,scss,css,json,yml}\"",
     "publish": "changeset publish",
     "upgrade-packages": "yarn upgrade-interactive"
   },
