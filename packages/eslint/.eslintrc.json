@@ -14,7 +14,7 @@
   },
   "rules": {
     "prettier/prettier": "error",
-    "prefer-template" : "error",
+    "prefer-template": "error",
     // make sure imports are sorted alphabetically
     "simple-import-sort/exports": "error",
     "simple-import-sort/imports": "error",
@@ -37,6 +37,7 @@
       }
     ],
     "@typescript-eslint/consistent-type-definitions": ["error", "interface"],
+    "@typescript-eslint/consistent-type-imports": "error",
     "@typescript-eslint/explicit-function-return-type": "error",
     "@typescript-eslint/explicit-module-boundary-types": "error",
     "@typescript-eslint/no-empty-function": ["error", { "allow": ["arrowFunctions"] }],
