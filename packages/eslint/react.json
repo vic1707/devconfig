@@ -8,12 +8,19 @@
     "sourceType": "module"
   },
   "plugins": ["react"],
-  "extends": [".eslintrc", "plugin:react/recommended"],
+  "extends": [".eslintrc", "plugin:react/jsx-runtime"],
   "rules": {
     "react/no-unused-prop-types": "error",
     "react/no-unused-state": "error",
     "react/react-in-jsx-scope": "off",
-    "react/sort-prop-types": "error"
+    "react/jsx-sort-props": "error",
+    "react/sort-prop-types": [
+      "error",
+      {
+        "callbacksLast": true,
+        "shorthandFirst": true
+      }
+    ]
   },
   "settings": {
     "react": {

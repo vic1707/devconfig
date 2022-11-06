@@ -1,5 +1,5 @@
 {
   "$schema": "https://json.schemastore.org/eslintrc",
   "plugins": ["jest"],
-  "extends": [".eslintrc", "plugin:jest/recommended"]
+  "extends": [".eslintrc", "plugin:jest/all"]
 }
