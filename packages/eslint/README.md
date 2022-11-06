@@ -3,7 +3,7 @@
 to use this package install it with
 
 ```bash
-npm install --save-dev @vic1707/eslint-config
+npm install --save-dev @vic1707/eslint-config eslint
 ```
 
 and create an `.eslintrc.js` file with the following content
