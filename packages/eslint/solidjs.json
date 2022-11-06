@@ -8,5 +8,12 @@
     "sourceType": "module"
   },
   "plugins": ["solid"],
-  "extends": [".eslintrc", "plugin:solid/recommended"]
+  "extends": [".eslintrc", "plugin:solid/typescript"],
+  "rules": {
+    "solid/no-react-specific-props": "error",
+    "solid/reactivity": "error",
+    "solid/no-innerhtml": "error",
+    "solid/prefer-show": "error",
+    "solid/no-proxy-apis": "error"
+  }
 }

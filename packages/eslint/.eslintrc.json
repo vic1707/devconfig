@@ -22,6 +22,16 @@
     // make sure all imports are used
     "unused-imports/no-unused-imports": "error",
 
+    // alphabetize object keys
+    "sort-keys": [
+      "error",
+      "asc",
+      { "caseSensitive": true, "natural": true, "minKeys": 2, "allowLineSeparatedGroups": true }
+    ],
+
+    // force shorthand for object properties when possible
+    "object-shorthand": ["error", "always"],
+
     //
     // @typescript-eslint
     //
