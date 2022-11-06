@@ -11,11 +11,27 @@
   "publishConfig": {
     "access": "public"
   },
-  "peerDependencies": {
-    "stylelint": "^14.14.0"
-  },
   "devDependencies": {
+    "postcss": "^8.4.18",
+    "prettier": "^2.7.1",
+    "stylelint": "^14.14.1",
     "stylelint-config-prettier": "^9.0.3",
-    "stylelint-config-standard": "^29.0.0"
-  }
+    "stylelint-config-prettier-scss": "^0.0.1",
+    "stylelint-config-standard": "^29.0.0",
+    "stylelint-config-standard-scss": "^6.1.0"
+  },
+  "peerDependencies": {
+    "postcss": "*",
+    "prettier": "*",
+    "stylelint": "*"
+  },
+  "peerDependenciesMeta": {
+    "postcss": {
+      "optional": true
+    }
+  },
+  "files": [
+    ".stylelintrc.json",
+    "standard.json"
+  ]
 }
