@@ -3,7 +3,7 @@
 to use this package install it with
 
 ```bash
-npm install --save-dev @vic1707/prettier
+npm install --save-dev @vic1707/prettier prettier
 ```
 
 and add this line to your `package.json`
