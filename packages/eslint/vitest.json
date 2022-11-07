@@ -11,6 +11,7 @@
       }
     ],
     "vitest/no-conditional-in-tests": "error",
-    "vitest/no-identical-title": "error"
+    "vitest/no-identical-title": "error",
+    "vitest/no-focused-tests": "error"
   }
 }
