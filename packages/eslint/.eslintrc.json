@@ -1,6 +1,13 @@
 {
   "parser": "@typescript-eslint/parser",
-    "plugins": ["@typescript-eslint", "import", "prettier", "simple-import-sort", "unused-imports", "typescript-sort-keys"],
+  "plugins": [
+    "@typescript-eslint",
+    "import",
+    "prettier",
+    "simple-import-sort",
+    "unused-imports",
+    "typescript-sort-keys"
+  ],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
