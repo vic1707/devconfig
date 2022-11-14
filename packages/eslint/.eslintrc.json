@@ -1,11 +1,12 @@
 {
   "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint", "import", "prettier", "simple-import-sort", "unused-imports"],
+    "plugins": ["@typescript-eslint", "import", "prettier", "simple-import-sort", "unused-imports", "typescript-sort-keys"],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
-    "plugin:@typescript-eslint/strict"
+    "plugin:@typescript-eslint/strict",
+    "plugin:typescript-sort-keys/recommended"
     // add "plugin:prettier/recommended" if bug with arrow functions occures and remove "prettier/prettier": "error" as it would be a duplicate
   ],
   "env": {
@@ -26,7 +27,7 @@
     "sort-keys": [
       "error",
       "asc",
-      { "caseSensitive": true, "natural": true, "minKeys": 2, "allowLineSeparatedGroups": true }
+      { "caseSensitive": false, "natural": true, "minKeys": 2, "allowLineSeparatedGroups": true }
     ],
 
     // force shorthand for object properties when possible
