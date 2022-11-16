@@ -1,6 +1,6 @@
 {
   "name": "@vic1707/eslint-config",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "main": ".eslintrc.json",
   "author": "Victor LEFEBVRE",
   "license": "MIT",
@@ -23,6 +23,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-simple-import-sort": "^8.0.0",
     "eslint-plugin-solid": "^0.8.0",
+    "eslint-plugin-typescript-sort-keys": "^2.1.0",
     "eslint-plugin-unused-imports": "^2.0.0",
     "eslint-plugin-vitest": "^0.0.13"
   },
