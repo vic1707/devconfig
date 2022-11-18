@@ -4,14 +4,10 @@
   "extends": [".eslintrc"],
   "rules": {
     "vitest/no-skipped-tests": "error",
-    "vitest/max-nested-describe": [
-      "error",
-      {
-        "max": 3
-      }
-    ],
-    "vitest/no-conditional-in-tests": "error",
+    "vitest/max-nested-describe": ["error", { "max": 3 }],
     "vitest/no-identical-title": "error",
-    "vitest/no-focused-tests": "error"
+    "vitest/no-focused-tests": "error",
+    "vitest/no-conditional-in-tests": "error",
+    "vitest/expect-expect": "error"
   }
 }
