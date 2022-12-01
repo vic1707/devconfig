@@ -18,7 +18,7 @@
     "@changesets/cli": "^2.25.2",
     "@vic1707/eslint-config": "*",
     "@vic1707/prettier": "*",
-    "prettier": "^2.7.1",
+    "prettier": "^2.8.0",
     "turbo": "^1.6.3"
   },
   "packageManager": "yarn@4.0.0-rc.27",
