@@ -682,7 +682,7 @@ __metadata:
     eslint-plugin-solid: "npm:^0.8.0"
     eslint-plugin-typescript-sort-keys: "npm:^2.1.0"
     eslint-plugin-unused-imports: "npm:^2.0.0"
-    eslint-plugin-vitest: "npm:^0.0.18"
+    eslint-plugin-vitest: "npm:^0.0.20"
     prettier: "npm:^2.8.0"
     typescript: "npm:^4.8.4"
   peerDependencies:
@@ -1564,14 +1564,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-vitest@npm:^0.0.18":
-  version: 0.0.18
-  resolution: "eslint-plugin-vitest@npm:0.0.18"
+"eslint-plugin-vitest@npm:^0.0.20":
+  version: 0.0.20
+  resolution: "eslint-plugin-vitest@npm:0.0.20"
   dependencies:
     "@typescript-eslint/utils": "npm:^5.42.1"
   peerDependencies:
     eslint: ">=8.0.0"
-  checksum: 06f0fe9f2dba8bcdca8b3a26d07a973df9b26f13bd62bf6977b49e8e3247952756990a0fcd7a663fd29aa5bba1d7f24a4d0cdb031b14f4a8785cd5fdf12431c2
+  checksum: 75c6c2280092538f56cdeecce7c839ac12cdb8e085db44fcba79384c5f63d633acda127430178fe92f056981acb6dd56aa78129534e600c3bce8c29a88835d1d
   languageName: node
   linkType: hard
 
