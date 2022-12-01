@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@darraghor/eslint-plugin-nestjs-typed": "^3.17.1",
-    "@typescript-eslint/eslint-plugin": "^5.42.0",
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
     "@typescript-eslint/parser": "^5.42.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
@@ -25,7 +25,7 @@
     "eslint-plugin-solid": "^0.8.0",
     "eslint-plugin-typescript-sort-keys": "^2.1.0",
     "eslint-plugin-unused-imports": "^2.0.0",
-    "eslint-plugin-vitest": "^0.0.18"
+    "eslint-plugin-vitest": "^0.0.20"
   },
   "devDependencies": {
     "@types/node": "^18.11.9",
