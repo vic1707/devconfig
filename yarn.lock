@@ -286,9 +286,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@darraghor/eslint-plugin-nestjs-typed@npm:^3.16.0":
-  version: 3.16.0
-  resolution: "@darraghor/eslint-plugin-nestjs-typed@npm:3.16.0"
+"@darraghor/eslint-plugin-nestjs-typed@npm:^3.17.1":
+  version: 3.17.1
+  resolution: "@darraghor/eslint-plugin-nestjs-typed@npm:3.17.1"
   dependencies:
     "@typescript-eslint/scope-manager": "npm:^5.0.0"
     "@typescript-eslint/utils": "npm:^5.0.0"
@@ -298,7 +298,7 @@ __metadata:
     "@typescript-eslint/parser": ^5.0.0
     class-validator: "*"
     eslint: ^8.0.0
-  checksum: 7e79971391dce3c17e62674967feb0edf66337ae1f42156d2c103d8ab074bd317e8d4ceac3e7be8de0b600a659a88933fc6b4437c4651cd1218913abc171339f
+  checksum: 147f82e249241e0301ee1c5c1b260383f7d5558034dff62aadc3e67bd566d113f1c4252b9a732face8b67eadb83ac9b09241c7d2fa15ee5e24dd0c97021c0877
   languageName: node
   linkType: hard
 
@@ -667,7 +667,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@vic1707/eslint-config@workspace:packages/eslint"
   dependencies:
-    "@darraghor/eslint-plugin-nestjs-typed": "npm:^3.16.0"
+    "@darraghor/eslint-plugin-nestjs-typed": "npm:^3.17.1"
     "@types/node": "npm:^18.11.9"
     "@typescript-eslint/eslint-plugin": "npm:^5.42.0"
     "@typescript-eslint/parser": "npm:^5.42.0"
