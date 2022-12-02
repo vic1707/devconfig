@@ -14,6 +14,8 @@
     "solid/reactivity": "error",
     "solid/no-innerhtml": "error",
     "solid/prefer-show": "error",
-    "solid/no-proxy-apis": "error"
+    "solid/no-proxy-apis": "error",
+    "solid/no-react-deps": "error",
+    "solid/imports": "error"
   }
 }
