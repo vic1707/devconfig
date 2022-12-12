@@ -434,10 +434,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^18.11.10":
-  version: 18.11.10
-  resolution: "@types/node@npm:18.11.10"
-  checksum: 0d8720580234f3a2fcb22779d4ccf9b7b7b778cfcf6fd7f2a9ea778bb2d943354111913d41b3142a82731305c525777d01f5f3982bbdd690ad53dffaa01a7529
+"@types/node@npm:^18.11.13":
+  version: 18.11.13
+  resolution: "@types/node@npm:18.11.13"
+  checksum: 39f711d3d3d90aea6116e6f1b9be71333b4990cfb2dc8047a92bfaadacbc817bea5217abef6b40938c1e51e6006a26593ab07256fa138e5a47e1dcacf4eee2d3
   languageName: node
   linkType: hard
 
@@ -731,7 +731,7 @@ __metadata:
   resolution: "@vic1707/eslint-config@workspace:packages/eslint"
   dependencies:
     "@darraghor/eslint-plugin-nestjs-typed": "npm:^3.17.1"
-    "@types/node": "npm:^18.11.10"
+    "@types/node": "npm:^18.11.13"
     "@typescript-eslint/eslint-plugin": "npm:^5.45.0"
     "@typescript-eslint/parser": "npm:^5.45.0"
     eslint: "npm:^8.27.0"
