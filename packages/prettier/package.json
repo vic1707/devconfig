@@ -1,6 +1,6 @@
 {
   "name": "@vic1707/prettier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "prettier.json",
   "author": "Victor LEFEBVRE",
   "license": "MIT",
@@ -12,6 +12,6 @@
     "access": "public"
   },
   "peerDependencies": {
-    "prettier": ">=2.7.0"
+    "prettier": ">=2.8.1"
   }
 }
