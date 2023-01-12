@@ -573,7 +573,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:5.48.1, @typescript-eslint/utils@npm:^5.0.0, @typescript-eslint/utils@npm:^5.10.0, @typescript-eslint/utils@npm:^5.30.7, @typescript-eslint/utils@npm:^5.42.1":
+"@typescript-eslint/utils@npm:5.48.1, @typescript-eslint/utils@npm:^5.0.0, @typescript-eslint/utils@npm:^5.10.0, @typescript-eslint/utils@npm:^5.30.7, @typescript-eslint/utils@npm:^5.48.1":
   version: 5.48.1
   resolution: "@typescript-eslint/utils@npm:5.48.1"
   dependencies:
@@ -620,7 +620,7 @@ __metadata:
     eslint-plugin-solid: "npm:^0.9.1"
     eslint-plugin-typescript-sort-keys: "npm:^2.1.0"
     eslint-plugin-unused-imports: "npm:^2.0.0"
-    eslint-plugin-vitest: "npm:^0.0.20"
+    eslint-plugin-vitest: "npm:^0.0.29"
     prettier: "npm:^2.8.0"
     typescript: "npm:^4.9.4"
   peerDependencies:
@@ -1515,14 +1515,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-vitest@npm:^0.0.20":
-  version: 0.0.20
-  resolution: "eslint-plugin-vitest@npm:0.0.20"
+"eslint-plugin-vitest@npm:^0.0.29":
+  version: 0.0.29
+  resolution: "eslint-plugin-vitest@npm:0.0.29"
   dependencies:
-    "@typescript-eslint/utils": "npm:^5.42.1"
+    "@typescript-eslint/utils": "npm:^5.48.1"
   peerDependencies:
     eslint: ">=8.0.0"
-  checksum: 75c6c2280092538f56cdeecce7c839ac12cdb8e085db44fcba79384c5f63d633acda127430178fe92f056981acb6dd56aa78129534e600c3bce8c29a88835d1d
+  checksum: fac12799df7ce226e9ea23b249910a80ddd96be310f69166ff20f4a923a8ad104f14805d81f274b1bef9ccab017f2aa013d7cc03df1448e2a43a9edd0a6c6eda
   languageName: node
   linkType: hard
 
