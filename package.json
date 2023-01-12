@@ -19,7 +19,7 @@
     "@vic1707/eslint-config": "*",
     "@vic1707/prettier": "*",
     "prettier": "^2.8.0",
-    "turbo": "^1.6.3"
+    "turbo": "^1.7.0"
   },
   "packageManager": "yarn@4.0.0-rc.27",
   "engines": {
