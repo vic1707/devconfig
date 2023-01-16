@@ -22,9 +22,8 @@
   },
   "packageManager": "yarn@4.0.0-rc.35",
   "engines": {
-    "node": ">=18.8.0",
-    "npm": ">=8.19.1",
-    "yarn": ">=4.0.0"
+    "node": ">=19.4.0",
+    "yarn": ">=4.0.0-rc.35"
   },
   "prettier": "@vic1707/prettier"
 }
