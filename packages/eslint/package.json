@@ -1,6 +1,6 @@
 {
   "name": "@vic1707/eslint-config",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "main": ".eslintrc.json",
   "author": "Victor LEFEBVRE",
   "license": "MIT",
@@ -41,6 +41,7 @@
     "typescript": "*"
   },
   "files": [
+    "astro.json",
     "jest.json",
     "nestjs.json",
     "react.json",
