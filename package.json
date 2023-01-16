@@ -16,7 +16,6 @@
   ],
   "devDependencies": {
     "@changesets/cli": "^2.25.2",
-    "@vic1707/eslint-config": "*",
     "@vic1707/prettier": "*",
     "prettier": "^2.8.0",
     "turbo": "^1.7.0"
