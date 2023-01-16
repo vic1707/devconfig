@@ -1,0 +1,5 @@
+{
+  "$schema": "https://json.schemastore.org/eslintrc",
+  "plugins": ["astro"],
+  "extends": [".eslintrc", "plugin:astro/recommended"]
+}
