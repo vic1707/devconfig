@@ -1,6 +1,6 @@
 {
   "name": "@vic1707/stylelint-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": ".stylelintrc.json",
   "author": "Victor LEFEBVRE",
   "license": "MIT",
