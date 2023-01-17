@@ -653,7 +653,7 @@ __metadata:
     eslint-plugin-react: "npm:^7.32.0"
     eslint-plugin-react-hooks: "npm:^4.6.0"
     eslint-plugin-simple-import-sort: "npm:^8.0.0"
-    eslint-plugin-solid: "npm:^0.9.2"
+    eslint-plugin-solid: "npm:^0.9.3"
     eslint-plugin-typescript-sort-keys: "npm:^2.1.0"
     eslint-plugin-unused-imports: "npm:^2.0.0"
     eslint-plugin-vitest: "npm:^0.0.29"
@@ -1548,9 +1548,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-solid@npm:^0.9.2":
-  version: 0.9.2
-  resolution: "eslint-plugin-solid@npm:0.9.2"
+"eslint-plugin-solid@npm:^0.9.3":
+  version: 0.9.3
+  resolution: "eslint-plugin-solid@npm:0.9.3"
   dependencies:
     "@typescript-eslint/utils": "npm:^5.30.7"
     is-html: "npm:^2.0.0"
@@ -1560,7 +1560,7 @@ __metadata:
     style-to-object: "npm:^0.3.0"
   peerDependencies:
     eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
-  checksum: ae2bebb9608bb91818f04aa258f5aa404380404f469cdb3005e37eb7e9ddc737c3e05d69f3e0f8a5f614e6c829e77179b68c48d61945045d7d72e7a68933531c
+  checksum: 171eba61a5f18fd3f10a6fae88cb82cb7e235e16b49dcd68d35825ad2f58c85b6e1e90fc658d12e35755809e80028c2ddd70ba67d3fb849087d05687e88a2817
   languageName: node
   linkType: hard
 
