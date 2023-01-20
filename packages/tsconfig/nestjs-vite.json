@@ -3,8 +3,8 @@
   "display": "NestJS Vite",
   "extends": "./vite.json",
   "compilerOptions": {
+    "module": "commonjs",
     "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "module": "commonjs"
+    "experimentalDecorators": true
   }
 }
