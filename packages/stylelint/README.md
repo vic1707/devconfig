@@ -3,7 +3,7 @@
 to use this package install it with
 
 ```bash
-npm install --save-dev @vic1707/styleling-config stylelint
+npm install --save-dev @vic1707/stylelint-config stylelint
 ```
 
 and create an `.stylelintrc.json` file with the following content
