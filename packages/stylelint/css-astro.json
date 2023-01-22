@@ -1,4 +1,0 @@
-{
-  "$schema": "http://json.schemastore.org/stylelintrc.json",
-  "extends": ["./css.json", "stylelint-config-astro"]
-}
