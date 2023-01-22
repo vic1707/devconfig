@@ -1,7 +1,7 @@
 {
   "name": "@vic1707/stylelint-config",
-  "version": "1.0.4",
-  "main": ".stylelintrc.json",
+  "version": "2.0.0",
+  "main": "scss.json",
   "author": "Victor LEFEBVRE",
   "license": "MIT",
   "repository": {
@@ -12,23 +12,30 @@
     "access": "public"
   },
   "dependencies": {
+    "stylelint-config-astro": "^1.0.4",
     "stylelint-config-prettier": "^9.0.4",
     "stylelint-config-prettier-scss": "^0.0.1",
-    "stylelint-config-standard": "^29.0.0",
-    "stylelint-config-standard-scss": "^6.1.0"
+    "stylelint-config-sass-guidelines": "^9.0.1",
+    "stylelint-config-standard": "^29.0.0"
   },
   "peerDependencies": {
     "postcss": "*",
+    "postcss-html": "*",
     "prettier": "*",
     "stylelint": "*"
   },
   "peerDependenciesMeta": {
     "postcss": {
       "optional": true
+    },
+    "postcss-html": {
+      "optional": true
     }
   },
   "files": [
-    ".stylelintrc.json",
-    "standard.json"
+    "css.json",
+    "scss.json",
+    "css-astro.json",
+    "scss-astro.json"
   ]
 }
