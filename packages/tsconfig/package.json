@@ -11,6 +11,9 @@
   "publishConfig": {
     "access": "public"
   },
+  "peerDependencies": {
+    "typescript": "*"
+  },
   "files": [
     "base.json",
     "nestjs-vite.json",
