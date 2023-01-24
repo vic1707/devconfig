@@ -25,7 +25,7 @@
     "eslint-plugin-simple-import-sort": "^9.0.0",
     "eslint-plugin-solid": "^0.9.3",
     "eslint-plugin-unused-imports": "^2.0.0",
-    "eslint-plugin-vitest": "^0.0.30"
+    "eslint-plugin-vitest": "^0.0.31"
   },
   "peerDependencies": {
     "class-validator": "*",
