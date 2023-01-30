@@ -7,8 +7,8 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": ["react"],
-  "extends": [".eslintrc", "plugin:react/jsx-runtime"],
+  "plugins": ["react", "react-hooks"],
+  "extends": [".eslintrc", "plugin:react/jsx-runtime", "plugin:react-hooks/recommended"],
   "rules": {
     "react/no-unused-prop-types": "error",
     "react/no-unused-state": "error",
@@ -20,7 +20,8 @@
         "callbacksLast": true,
         "shorthandFirst": true
       }
-    ]
+    ],
+    "react-hooks/exhaustive-deps": "error"
   },
   "settings": {
     "react": {
