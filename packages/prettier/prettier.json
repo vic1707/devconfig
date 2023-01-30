@@ -46,6 +46,12 @@
       "options": {
         "parser": "html"
       }
+    },
+    {
+      "files": "*.svg",
+      "options": {
+        "parser": "html"
+      }
     }
   ],
   "parser": "typescript",
