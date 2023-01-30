@@ -455,20 +455,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^5.48.2":
-  version: 5.48.2
-  resolution: "@typescript-eslint/parser@npm:5.48.2"
+"@typescript-eslint/parser@npm:^5.49.0":
+  version: 5.49.0
+  resolution: "@typescript-eslint/parser@npm:5.49.0"
   dependencies:
-    "@typescript-eslint/scope-manager": "npm:5.48.2"
-    "@typescript-eslint/types": "npm:5.48.2"
-    "@typescript-eslint/typescript-estree": "npm:5.48.2"
+    "@typescript-eslint/scope-manager": "npm:5.49.0"
+    "@typescript-eslint/types": "npm:5.49.0"
+    "@typescript-eslint/typescript-estree": "npm:5.49.0"
     debug: "npm:^4.3.4"
   peerDependencies:
     eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 07ee0ebb3f4e00ffacf1cd6b6bc2ebfdda2c89bab8094c2f950d54428c44a486eaf684893d9cfb95745e83f52007e43069f832298ee2f845596ce17f02440479
+  checksum: 733393eb9ad4f8bf7116b54028c3f5e6b0c98ba8ac2c0b416c24356f3c5b2aabb810ec039e7d5d56413a8e65ccd2bf1854d46b72a8507d403a284cceade0583e
   languageName: node
   linkType: hard
 
@@ -621,7 +621,7 @@ __metadata:
   dependencies:
     "@darraghor/eslint-plugin-nestjs-typed": "npm:^3.18.0"
     "@typescript-eslint/eslint-plugin": "npm:^5.49.0"
-    "@typescript-eslint/parser": "npm:^5.48.2"
+    "@typescript-eslint/parser": "npm:^5.49.0"
     eslint-config-prettier: "npm:^8.6.0"
     eslint-plugin-astro: "npm:^0.23.0"
     eslint-plugin-import: "npm:^2.27.5"
@@ -630,7 +630,7 @@ __metadata:
     eslint-plugin-react: "npm:^7.32.2"
     eslint-plugin-react-hooks: "npm:^4.6.0"
     eslint-plugin-simple-import-sort: "npm:^10.0.0"
-    eslint-plugin-solid: "npm:^0.9.3"
+    eslint-plugin-solid: "npm:^0.9.4"
     eslint-plugin-unused-imports: "npm:^2.0.0"
     eslint-plugin-vitest: "npm:^0.0.32"
   peerDependencies:
@@ -1425,9 +1425,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-solid@npm:^0.9.3":
-  version: 0.9.3
-  resolution: "eslint-plugin-solid@npm:0.9.3"
+"eslint-plugin-solid@npm:^0.9.4":
+  version: 0.9.4
+  resolution: "eslint-plugin-solid@npm:0.9.4"
   dependencies:
     "@typescript-eslint/utils": "npm:^5.30.7"
     is-html: "npm:^2.0.0"
@@ -1437,7 +1437,7 @@ __metadata:
     style-to-object: "npm:^0.3.0"
   peerDependencies:
     eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
-  checksum: 171eba61a5f18fd3f10a6fae88cb82cb7e235e16b49dcd68d35825ad2f58c85b6e1e90fc658d12e35755809e80028c2ddd70ba67d3fb849087d05687e88a2817
+  checksum: 072fb235df48b2a69c37a215cd9911a833139996a47c0478bd4b57a82f1b42c213308fe6a64ec30f22f18c1e66668a2dd463b028ae93119fdb03cc468ef66d7b
   languageName: node
   linkType: hard
 
