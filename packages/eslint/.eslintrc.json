@@ -1,6 +1,13 @@
 {
   "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint", "import", "prettier", "simple-import-sort", "unused-imports"],
+  "plugins": [
+    "@typescript-eslint",
+    "import",
+    "prettier",
+    "simple-import-sort",
+    "unused-imports",
+    "sort-destructure-keys"
+  ],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
@@ -15,6 +22,7 @@
   "rules": {
     "prettier/prettier": "error",
     "prefer-template": "error",
+
     // make sure imports are sorted alphabetically
     "simple-import-sort/exports": "error",
     "simple-import-sort/imports": "error",
@@ -28,6 +36,9 @@
       "asc",
       { "caseSensitive": false, "natural": true, "minKeys": 2, "allowLineSeparatedGroups": true }
     ],
+
+    // alphabetize destructured object keys
+    "sort-destructure-keys/sort-destructure-keys": ["error", { "caseSensitive": false }],
 
     // force shorthand for object properties when possible
     "object-shorthand": ["error", "always"],
