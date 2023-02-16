@@ -632,7 +632,7 @@ __metadata:
     eslint-plugin-react-hooks: "npm:^4.6.0"
     eslint-plugin-simple-import-sort: "npm:^10.0.0"
     eslint-plugin-solid: "npm:^0.9.4"
-    eslint-plugin-sort-destructure-keys: "npm:^1.4.0"
+    eslint-plugin-sort-destructure-keys: "npm:^1.5.0"
     eslint-plugin-unused-imports: "npm:^2.0.0"
     eslint-plugin-vitest: "npm:^0.0.34"
   peerDependencies:
@@ -1443,14 +1443,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-sort-destructure-keys@npm:^1.4.0":
-  version: 1.4.0
-  resolution: "eslint-plugin-sort-destructure-keys@npm:1.4.0"
+"eslint-plugin-sort-destructure-keys@npm:^1.5.0":
+  version: 1.5.0
+  resolution: "eslint-plugin-sort-destructure-keys@npm:1.5.0"
   dependencies:
     natural-compare-lite: "npm:^1.4.0"
   peerDependencies:
     eslint: 3 - 8
-  checksum: 6350fca710ac27b5c50b826ce3ab4edfbd11e7c5536fcb1f44bda8ddc55905a67eceb0b970f4b1b5131697fd5e61db2db853264eb53d23b82f708ceb4ef15337
+  checksum: fedbb40fe90da0d4dcf9699b5d37e9847534a8e4e61126a88f3a9dff55fb439a5baf6ab3e4b62c6c8dad1598ab98ab4c9f9b82bf5ec1e1f87efd4873e52bcea9
   languageName: node
   linkType: hard
 
