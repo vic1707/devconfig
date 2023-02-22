@@ -679,7 +679,7 @@ __metadata:
     eslint-plugin-solid: "npm:^0.10.0"
     eslint-plugin-sort-destructure-keys: "npm:^1.5.0"
     eslint-plugin-unused-imports: "npm:^2.0.0"
-    eslint-plugin-vitest: "npm:^0.0.41"
+    eslint-plugin-vitest: "npm:^0.0.46"
   peerDependencies:
     class-validator: "*"
     eslint: "*"
@@ -1514,14 +1514,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-vitest@npm:^0.0.41":
-  version: 0.0.41
-  resolution: "eslint-plugin-vitest@npm:0.0.41"
+"eslint-plugin-vitest@npm:^0.0.46":
+  version: 0.0.46
+  resolution: "eslint-plugin-vitest@npm:0.0.46"
   dependencies:
     "@typescript-eslint/utils": "npm:^5.48.1"
   peerDependencies:
     eslint: ">=8.0.0"
-  checksum: 0c4acdabf1f20c2917e18f2d593e4197c59e1db68906b98c11669acce54dfae0479613c08cb6f967e5ad6ec3f7d0a2aee13a11111e1350eec80590f78a42210a
+  checksum: ef213ab9ed7159bb2ec3f2c225749a2b6fc07ecfa261ab246382112a5c55c9159e87d193d33834596a43a935d9b0378d17bacbeca523acf1540c032093e95046
   languageName: node
   linkType: hard
 
