@@ -456,20 +456,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^5.52.0":
-  version: 5.52.0
-  resolution: "@typescript-eslint/parser@npm:5.52.0"
+"@typescript-eslint/parser@npm:^5.54.0":
+  version: 5.54.0
+  resolution: "@typescript-eslint/parser@npm:5.54.0"
   dependencies:
-    "@typescript-eslint/scope-manager": "npm:5.52.0"
-    "@typescript-eslint/types": "npm:5.52.0"
-    "@typescript-eslint/typescript-estree": "npm:5.52.0"
+    "@typescript-eslint/scope-manager": "npm:5.54.0"
+    "@typescript-eslint/types": "npm:5.54.0"
+    "@typescript-eslint/typescript-estree": "npm:5.54.0"
     debug: "npm:^4.3.4"
   peerDependencies:
     eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 74d212e104e9ff300f88c71a955644d539706ef826ff08a06954b9edc69b856fb1c677c25562cc0b78d5673c379061adfed1854082e613838c895775767a0a73
+  checksum: 2d996fd4ffdcbd510e3a12db73ec0f83a3db892e8fac23cd1103a3d03b5e0c49edd552e99eb1004640120870fdc3c60d428442e6500c133920db1774477268fe
   languageName: node
   linkType: hard
 
@@ -490,6 +490,16 @@ __metadata:
     "@typescript-eslint/types": "npm:5.52.0"
     "@typescript-eslint/visitor-keys": "npm:5.52.0"
   checksum: fb409093f2b3f5f2fd4fad2f8e70dcf9a08968c22453e6d220aba771c6498b2834e3b78bf417922d1e9889ff9fcde3a64aac133c21adcb7441f450e2dffe549b
+  languageName: node
+  linkType: hard
+
+"@typescript-eslint/scope-manager@npm:5.54.0":
+  version: 5.54.0
+  resolution: "@typescript-eslint/scope-manager@npm:5.54.0"
+  dependencies:
+    "@typescript-eslint/types": "npm:5.54.0"
+    "@typescript-eslint/visitor-keys": "npm:5.54.0"
+  checksum: 190a9393591ee44fbd74e7e90b84f025575df12ecb7a58fde52e0646f95e09d985d5bfd937d7c3f1c63929048d5c3e4f37f04fe006015ad1007d729c979bd4af
   languageName: node
   linkType: hard
 
@@ -521,6 +531,13 @@ __metadata:
   version: 5.52.0
   resolution: "@typescript-eslint/types@npm:5.52.0"
   checksum: 05a35baff15cbf87b7981d97a217674c4f0586299cfbf28c65f440399b703fcd149dd7ff54dd0e24268916ef954cd65fd779616a0d2faf67f2d5b2afe362b5dd
+  languageName: node
+  linkType: hard
+
+"@typescript-eslint/types@npm:5.54.0":
+  version: 5.54.0
+  resolution: "@typescript-eslint/types@npm:5.54.0"
+  checksum: cb12ff68aed7833bec7bccc0a5ac232be483ae3072fd6aae7d64657cc02025e18a3a9ce0110a716bd5b4876146be0ffd41f05d9a440aef99757fc83ed9bda957
   languageName: node
   linkType: hard
 
@@ -557,6 +574,24 @@ __metadata:
     typescript:
       optional: true
   checksum: 7a9e491a878d6da08587f9158f992454eba0b8911dd60f65a0ba6eb9672353e39bf46226af59600d1366b6d5af1678b4171bc96587d95e08bb6450aa70123145
+  languageName: node
+  linkType: hard
+
+"@typescript-eslint/typescript-estree@npm:5.54.0":
+  version: 5.54.0
+  resolution: "@typescript-eslint/typescript-estree@npm:5.54.0"
+  dependencies:
+    "@typescript-eslint/types": "npm:5.54.0"
+    "@typescript-eslint/visitor-keys": "npm:5.54.0"
+    debug: "npm:^4.3.4"
+    globby: "npm:^11.1.0"
+    is-glob: "npm:^4.0.3"
+    semver: "npm:^7.3.7"
+    tsutils: "npm:^3.21.0"
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: 607932df5bf787114b3437e9165bdf57349018567e2f7b2b8789ada51efdfc38f267bdf2c51a3e748ce75565e125feb5745a073c8324d10ab84176d3b29d4282
   languageName: node
   linkType: hard
 
@@ -616,13 +651,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@typescript-eslint/visitor-keys@npm:5.54.0":
+  version: 5.54.0
+  resolution: "@typescript-eslint/visitor-keys@npm:5.54.0"
+  dependencies:
+    "@typescript-eslint/types": "npm:5.54.0"
+    eslint-visitor-keys: "npm:^3.3.0"
+  checksum: 340a3710839d9e57170ebc5de4c4bc3e2cf0c616c531d7c243fbca9da3877fd8e3a4a318cc7af5276b1e5d7e7f1c092656a2e1ec8720288692b5d39ade4c3505
+  languageName: node
+  linkType: hard
+
 "@vic1707/eslint-config@workspace:packages/eslint":
   version: 0.0.0-use.local
   resolution: "@vic1707/eslint-config@workspace:packages/eslint"
   dependencies:
     "@darraghor/eslint-plugin-nestjs-typed": "npm:^3.18.0"
     "@typescript-eslint/eslint-plugin": "npm:^5.52.0"
-    "@typescript-eslint/parser": "npm:^5.52.0"
+    "@typescript-eslint/parser": "npm:^5.54.0"
     eslint-config-prettier: "npm:^8.6.0"
     eslint-plugin-astro: "npm:^0.23.0"
     eslint-plugin-import: "npm:^2.27.5"
