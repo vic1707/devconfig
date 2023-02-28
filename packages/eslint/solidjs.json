@@ -13,6 +13,7 @@
     "solid/no-react-specific-props": "error",
     "solid/reactivity": "error",
     "solid/no-innerhtml": "error",
+    "solid/no-array-handlers": "error",
     "solid/prefer-show": "error",
     "solid/no-proxy-apis": "error",
     "solid/no-react-deps": "error",
