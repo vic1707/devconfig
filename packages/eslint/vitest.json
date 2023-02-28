@@ -4,10 +4,24 @@
   "extends": [".eslintrc"],
   "rules": {
     "vitest/no-skipped-tests": "error",
+    // "vitest/prefer-lowercase-title": "",
     "vitest/max-nested-describe": ["error", { "max": 3 }],
     "vitest/no-identical-title": "error",
     "vitest/no-focused-tests": "error",
-    "vitest/no-conditional-in-tests": "error",
-    "vitest/expect-expect": "error"
+    "vitest/no-conditional-tests": "error",
+    "vitest/expect-expect": "error",
+    // "vitest/consistent-test-it": "error",
+    "vitest/prefer-to-be": "error",
+    // "vitest/no-hooks": "",
+    // "vitest/no-restricted-vi-methods": "",
+    // "vitest/consistent-test-filename": "",
+    // "vitest/max-expects": "",
+    "vitest/no-alias-methods": "error",
+    "vitest/no-commented-out-tests": "error",
+    "vitest/no-conditional-expect": "error",
+    "vitest/no-conditional-in-test": "error",
+    "vitest/no-disabled-tests": "warn",
+    "vitest/no-done-callback": "error",
+    "vitest/no-duplicate-hooks": "error"
   }
 }
