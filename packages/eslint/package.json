@@ -1,6 +1,6 @@
 {
   "name": "@vic1707/eslint-config",
-  "version": "3.0.1",
+  "version": "4.0.0",
   "main": ".eslintrc.json",
   "author": "Victor LEFEBVRE",
   "license": "MIT",
@@ -12,9 +12,9 @@
     "access": "public"
   },
   "dependencies": {
-    "@darraghor/eslint-plugin-nestjs-typed": "^3.18.0",
-    "@typescript-eslint/eslint-plugin": "^5.52.0",
-    "@typescript-eslint/parser": "^5.52.0",
+    "@darraghor/eslint-plugin-nestjs-typed": "^3.19.0",
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
+    "@typescript-eslint/parser": "^5.54.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-astro": "^0.23.0",
     "eslint-plugin-import": "^2.27.5",
@@ -23,10 +23,10 @@
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-simple-import-sort": "^10.0.0",
-    "eslint-plugin-solid": "^0.9.4",
+    "eslint-plugin-solid": "^0.10.0",
     "eslint-plugin-sort-destructure-keys": "^1.5.0",
     "eslint-plugin-unused-imports": "^2.0.0",
-    "eslint-plugin-vitest": "^0.0.41"
+    "eslint-plugin-vitest": "^0.0.53"
   },
   "peerDependencies": {
     "class-validator": "*",
