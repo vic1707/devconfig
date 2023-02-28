@@ -1,6 +1,6 @@
 {
   "name": "@vic1707/eslint-config",
-  "version": "3.0.2",
+  "version": "4.0.0",
   "main": ".eslintrc.json",
   "author": "Victor LEFEBVRE",
   "license": "MIT",
