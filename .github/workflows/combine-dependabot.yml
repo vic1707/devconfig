@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: GHA-combine-PRs
-        uses: vic1707/GHA-combine-PRs@1.0.3
+        uses: vic1707/GHA-combine-PRs@1.1.0
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
           must-be-green: false ## need to be changed
