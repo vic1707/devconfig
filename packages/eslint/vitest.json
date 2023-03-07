@@ -23,5 +23,8 @@
     "vitest/no-disabled-tests": "warn",
     "vitest/no-done-callback": "error",
     "vitest/no-duplicate-hooks": "error"
+    // "vitest/no-interpolation-in-snapshots": ""
+    // "vitest/no-large-snapshots": ""
+    // "vitest/no-restricted-matchers": ""
   }
 }
