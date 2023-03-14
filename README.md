@@ -5,4 +5,5 @@ This repo contains my
 
 - prettier config
 - eslint config
+- stylelint config
 - tsconfig files
