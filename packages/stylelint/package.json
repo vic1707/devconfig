@@ -1,6 +1,6 @@
 {
   "name": "@vic1707/stylelint-config",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "main": "scss.json",
   "author": "Victor LEFEBVRE",
   "license": "MIT",
