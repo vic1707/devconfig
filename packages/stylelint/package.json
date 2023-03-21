@@ -1,6 +1,6 @@
 {
   "name": "@vic1707/stylelint-config",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "main": "scss.json",
   "author": "Victor LEFEBVRE",
   "license": "MIT",
@@ -14,7 +14,7 @@
   "dependencies": {
     "stylelint-config-astro": "^1.0.4",
     "stylelint-config-prettier-scss": "^0.0.1",
-    "stylelint-config-sass-guidelines": "^9.0.1"
+    "stylelint-config-sass-guidelines": "^10.0.0"
   },
   "peerDependencies": {
     "postcss": "*",
