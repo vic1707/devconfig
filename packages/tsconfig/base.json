@@ -16,7 +16,6 @@
     "esModuleInterop": true,
     "exactOptionalPropertyTypes": true,
     "forceConsistentCasingInFileNames": true,
-    "importsNotUsedAsValues": "error",
     "incremental": true,
     "inlineSources": true,
     "isolatedModules": true,

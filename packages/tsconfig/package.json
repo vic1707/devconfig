@@ -1,6 +1,6 @@
 {
   "name": "@vic1707/tsconfig",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "main": "base.json",
   "author": "Victor LEFEBVRE",
   "license": "MIT",
@@ -12,7 +12,7 @@
     "access": "public"
   },
   "peerDependencies": {
-    "typescript": "*"
+    "typescript": "^5.0.0"
   },
   "files": [
     "base.json",
