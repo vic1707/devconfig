@@ -741,7 +741,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@vic1707/tsconfig@workspace:packages/tsconfig"
   peerDependencies:
-    typescript: "*"
+    typescript: ^5.0.0
   languageName: unknown
   linkType: soft
 
