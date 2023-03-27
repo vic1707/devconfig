@@ -715,7 +715,7 @@ __metadata:
     eslint-plugin-solid: "npm:^0.11.0"
     eslint-plugin-sort-destructure-keys: "npm:^1.5.0"
     eslint-plugin-unused-imports: "npm:^2.0.0"
-    eslint-plugin-vitest: "npm:^0.0.54"
+    eslint-plugin-vitest: "npm:^0.0.57"
   peerDependencies:
     class-validator: "*"
     eslint: "*"
@@ -1551,14 +1551,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-vitest@npm:^0.0.54":
-  version: 0.0.54
-  resolution: "eslint-plugin-vitest@npm:0.0.54"
+"eslint-plugin-vitest@npm:^0.0.57":
+  version: 0.0.57
+  resolution: "eslint-plugin-vitest@npm:0.0.57"
   dependencies:
     "@typescript-eslint/utils": "npm:^5.53.0"
   peerDependencies:
     eslint: ">=8.0.0"
-  checksum: bf5d6090d5a458cafbd0fd726c27f7c24bdd3511de8a5e21fb4b66808fd9b677a2d7bdfcc63642b7c5785b481bcf2883d53ed574e39aca3b57c76ed499eef6af
+  checksum: 9803b322125ac3d6ef8d6f5f504cf1cdefb928fed14a33c1c4f99ce079e82e233a91554108b9485a6423ecf0db5a3c9f531e78871bfb885dd2f6cd7ff19b3ef3
   languageName: node
   linkType: hard
 
@@ -2873,12 +2873,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.8.6":
-  version: 2.8.6
-  resolution: "prettier@npm:2.8.6"
+"prettier@npm:^2.8.7":
+  version: 2.8.7
+  resolution: "prettier@npm:2.8.7"
   bin:
     prettier: bin-prettier.js
-  checksum: 349cf6e60e9e816aedede90186fbd77a169d81ef55ae319e9528012ea610dde8f96d93188435153d2c92772ee9ff6869def1035e2beb7ece779da4f7ca8ee532
+  checksum: ec15b2e0a2a34a4987cca4ee72b2df56c7f4a4c62322d9a0f3c9efccb2cc0e3efdb791bb2764f2268e69e05946dc72108e5b5957d4bb2c1a41a11733b8b09153
   languageName: node
   linkType: hard
 
@@ -3077,7 +3077,7 @@ __metadata:
   dependencies:
     "@changesets/cli": "npm:^2.26.1"
     "@vic1707/prettier": "npm:*"
-    prettier: "npm:^2.8.6"
+    prettier: "npm:^2.8.7"
     turbo: "npm:^1.8.5"
   languageName: unknown
   linkType: soft
