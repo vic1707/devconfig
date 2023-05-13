@@ -740,7 +740,7 @@ __metadata:
   resolution: "@vic1707/stylelint-config@workspace:packages/stylelint"
   dependencies:
     stylelint-config-astro: "npm:^1.0.4"
-    stylelint-config-prettier-scss: "npm:^0.0.1"
+    stylelint-config-prettier-scss: "npm:^1.0.0"
     stylelint-config-sass-guidelines: "npm:^10.0.0"
   peerDependencies:
     postcss: "*"
@@ -3392,29 +3392,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-config-prettier-scss@npm:^0.0.1":
-  version: 0.0.1
-  resolution: "stylelint-config-prettier-scss@npm:0.0.1"
-  dependencies:
-    stylelint-config-prettier: "npm:>=9.0.3"
+"stylelint-config-prettier-scss@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "stylelint-config-prettier-scss@npm:1.0.0"
   peerDependencies:
-    stylelint: ">=11.0.0"
+    stylelint: ">=15.0.0"
   bin:
     stylelint-config-prettier-scss: bin/check.js
     stylelint-config-prettier-scss-check: bin/check.js
-  checksum: 13cf74b20435e08d9bda6df37c7f33c7a10b191f4bbed5ae01b36ad3a10d5da39c0b1d2a907376f5582e4b3011119c348f599e317fa83cf4374b6a4ee0fe7ee7
-  languageName: node
-  linkType: hard
-
-"stylelint-config-prettier@npm:>=9.0.3":
-  version: 9.0.4
-  resolution: "stylelint-config-prettier@npm:9.0.4"
-  peerDependencies:
-    stylelint: ">=11.0.0"
-  bin:
-    stylelint-config-prettier: bin/check.js
-    stylelint-config-prettier-check: bin/check.js
-  checksum: df28ea769c883eb10f0e8225e7bd7f9b819e899c0893eab1fa6fa154c4b6b8341a62a1a7e708ddc17709bc23bc2366948a0c94f4d8883e5f3d3404972ca4feec
+  checksum: e4a66c003d8a33973e08733bf7a75511d5f24bb93bd5d0c4e2ba61e3499c0cc01017b754477ef37d28dacfbac315e7a43a99c115ec9efeac7bebefa25f57b0bf
   languageName: node
   linkType: hard
 
