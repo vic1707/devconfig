@@ -768,7 +768,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": "npm:^5.59.2"
     "@typescript-eslint/parser": "npm:^5.59.2"
     eslint-config-prettier: "npm:^8.8.0"
-    eslint-plugin-astro: "npm:^0.26.1"
+    eslint-plugin-astro: "npm:^0.27.0"
     eslint-plugin-import: "npm:^2.27.5"
     eslint-plugin-jest: "npm:^27.2.1"
     eslint-plugin-prettier: "npm:^4.2.1"
@@ -949,9 +949,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro-eslint-parser@npm:^0.13.1":
-  version: 0.13.1
-  resolution: "astro-eslint-parser@npm:0.13.1"
+"astro-eslint-parser@npm:^0.14.0":
+  version: 0.14.0
+  resolution: "astro-eslint-parser@npm:0.14.0"
   dependencies:
     "@astrojs/compiler": "npm:^1.0.0"
     "@typescript-eslint/scope-manager": "npm:^5.48.2"
@@ -961,7 +961,7 @@ __metadata:
     eslint-visitor-keys: "npm:^3.0.0"
     espree: "npm:^9.0.0"
     semver: "npm:^7.3.8"
-  checksum: 6a598358556ee45cf7b70e4f1eba7ebdc53f09165ce0a47bb05c43b38b2c5a59c0fb40ee044b1d925eeb366812dcf2c8f2e64c9be1e2580a352e227453616cde
+  checksum: 7567c3243efcf5cd58b287ecb376b0220cfa075c2f39312685f4b1bfb71b1cf2c38aad2281bb79d179160b9663299b98092364363076e6dd7990b36f70e78766
   languageName: node
   linkType: hard
 
@@ -1468,19 +1468,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-astro@npm:^0.26.1":
-  version: 0.26.1
-  resolution: "eslint-plugin-astro@npm:0.26.1"
+"eslint-plugin-astro@npm:^0.27.0":
+  version: 0.27.0
+  resolution: "eslint-plugin-astro@npm:0.27.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.2.0"
     "@jridgewell/sourcemap-codec": "npm:^1.4.14"
     "@typescript-eslint/types": "npm:^5.25.0"
-    astro-eslint-parser: "npm:^0.13.1"
+    astro-eslint-parser: "npm:^0.14.0"
     postcss: "npm:^8.4.14"
     postcss-selector-parser: "npm:^6.0.10"
   peerDependencies:
     eslint: ">=7.0.0"
-  checksum: bfbd5227631ae0672dd43a17f06c48d64fe8113c9871f4d1900bc27643e071dfdc1465edb903875f9fd334f50dad1e71363ed0b5acfc8281204db0f499a56681
+  checksum: 56d8c36807370d3ec4c4ef773ef6ce4893f43f5ec243c0e7aa17e2118cd28af3dcd812b12f5d0484f599353084a814faa43698493b090842510037a67a3153cc
   languageName: node
   linkType: hard
 
