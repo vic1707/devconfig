@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "stylelint-config-astro": "^1.0.4",
-    "stylelint-config-prettier-scss": "^0.0.1",
+    "stylelint-config-prettier-scss": "^1.0.0",
     "stylelint-config-sass-guidelines": "^10.0.0"
   },
   "peerDependencies": {
