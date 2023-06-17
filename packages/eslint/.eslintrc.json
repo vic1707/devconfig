@@ -4,6 +4,7 @@
     "@typescript-eslint",
     "import",
     "prettier",
+    "promise",
     "simple-import-sort",
     "unused-imports",
     "sort-destructure-keys"
@@ -12,7 +13,8 @@
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
-    "plugin:@typescript-eslint/strict"
+    "plugin:@typescript-eslint/strict",
+    "plugin:promise/recommended"
     // add "plugin:prettier/recommended" if bug with arrow functions occures and remove "prettier/prettier": "error" as it would be a duplicate
   ],
   "env": {
