@@ -18,11 +18,11 @@
     "@changesets/cli": "^2.26.1",
     "@vic1707/prettier": "*",
     "prettier": "^2.8.8",
-    "turbo": "^1.9.3"
+    "turbo": "^1.10.3"
   },
-  "packageManager": "yarn@4.0.0-rc.42",
+  "packageManager": "yarn@4.0.0-rc.45",
   "engines": {
-    "node": ">=19.4.0",
+    "node": ">=20.3.0",
     "yarn": ">=4.0.0-rc.35"
   },
   "prettier": "@vic1707/prettier"

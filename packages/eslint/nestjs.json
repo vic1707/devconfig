@@ -5,5 +5,9 @@
     "sourceType": "module"
   },
   "plugins": ["@darraghor/nestjs-typed"],
-  "extends": [".eslintrc", "plugin:@darraghor/nestjs-typed/recommended"]
+  "extends": [".eslintrc", "plugin:@darraghor/nestjs-typed/recommended"],
+  "rules": {
+    "@darraghor/nestjs-typed/sort-module-metadata-arrays": "error",
+    "@darraghor/nestjs-typed/api-method-should-specify-api-response": "error"
+  }
 }
