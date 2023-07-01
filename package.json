@@ -15,10 +15,10 @@
     "packages/*"
   ],
   "devDependencies": {
-    "@changesets/cli": "^2.26.1",
+    "@changesets/cli": "^2.26.2",
     "@vic1707/prettier": "*",
     "prettier": "^2.8.8",
-    "turbo": "^1.10.6"
+    "turbo": "^1.10.7"
   },
   "packageManager": "yarn@4.0.0-rc.45",
   "engines": {
