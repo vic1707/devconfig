@@ -907,7 +907,7 @@ __metadata:
     eslint-plugin-simple-import-sort: "npm:^10.0.0"
     eslint-plugin-solid: "npm:^0.12.1"
     eslint-plugin-sort-destructure-keys: "npm:^1.5.0"
-    eslint-plugin-unused-imports: "npm:^2.0.0"
+    eslint-plugin-unused-imports: "npm:^3.0.0"
     eslint-plugin-vitest: "npm:^0.2.6"
   peerDependencies:
     class-validator: "*"
@@ -1751,18 +1751,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unused-imports@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "eslint-plugin-unused-imports@npm:2.0.0"
+"eslint-plugin-unused-imports@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "eslint-plugin-unused-imports@npm:3.0.0"
   dependencies:
     eslint-rule-composer: "npm:^0.3.0"
   peerDependencies:
-    "@typescript-eslint/eslint-plugin": ^5.0.0
+    "@typescript-eslint/eslint-plugin": ^6.0.0
     eslint: ^8.0.0
   peerDependenciesMeta:
     "@typescript-eslint/eslint-plugin":
       optional: true
-  checksum: 7323f65e4fbd1f3eb3f83ffdcee066ec1016134909ef5ed2789bdcd64e64f9ddc0f7cf74b32745bf8d349e86f0972462f34a4f890fb1711c909649bca346146c
+  checksum: c63ffbee4271b47ac2a0c61a11238716ba7cd41217b9fc3ac7d0f2da9e9df9c7b816dbfb7dcc88151304adbfdeac9a8be8ed26182dbd6b8340aea561a9b981c9
   languageName: node
   linkType: hard
 
