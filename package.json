@@ -18,7 +18,7 @@
     "@changesets/cli": "^2.26.2",
     "@vic1707/prettier": "*",
     "prettier": "^3.0.3",
-    "turbo": "^1.10.7"
+    "turbo": "^1.10.13"
   },
   "packageManager": "yarn@4.0.0-rc.45",
   "engines": {
