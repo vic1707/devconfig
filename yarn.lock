@@ -590,7 +590,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:^6.2.0":
+"@typescript-eslint/utils@npm:^6.5.0":
   version: 6.7.0
   resolution: "@typescript-eslint/utils@npm:6.7.0"
   dependencies:
@@ -646,7 +646,7 @@ __metadata:
     eslint-plugin-solid: "npm:^0.12.1"
     eslint-plugin-sort-destructure-keys: "npm:^1.5.0"
     eslint-plugin-unused-imports: "npm:^2.0.0"
-    eslint-plugin-vitest: "npm:^0.2.6"
+    eslint-plugin-vitest: "npm:^0.3.1"
   peerDependencies:
     class-validator: "*"
     eslint: "*"
@@ -1675,18 +1675,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-vitest@npm:^0.2.6":
-  version: 0.2.8
-  resolution: "eslint-plugin-vitest@npm:0.2.8"
+"eslint-plugin-vitest@npm:^0.3.1":
+  version: 0.3.1
+  resolution: "eslint-plugin-vitest@npm:0.3.1"
   dependencies:
-    "@typescript-eslint/utils": "npm:^6.2.0"
+    "@typescript-eslint/utils": "npm:^6.5.0"
+    typescript: "npm:^5.2.2"
   peerDependencies:
     eslint: ">=8.0.0"
     vitest: "*"
   peerDependenciesMeta:
-    vite:
+    "@typescript-eslint/eslint-plugin":
       optional: true
-  checksum: 804cdb333af3fba347484e6d1d80c5d0d96e28accd93de47094091ba54e5567ff5fd71591eeb94fb6036c21ac2db2eb5ebcfaa4c9ea3fb35280d1964a35a1813
+  checksum: bc0f419acfebea3b7d2f73ce36a8199c95d073c478bf4ead7dc29d17306a5485044cd5be6d7c351f03385f27b5ef221a69e815f64aec395985cc5899c38370bd
   languageName: node
   linkType: hard
 
@@ -4147,6 +4148,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"typescript@npm:^5.2.2":
+  version: 5.2.2
+  resolution: "typescript@npm:5.2.2"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 8c5dfc6149a0d5fbad8d55fd9f5cefaf567b6dda42bce8eef7e5f27e6b11d0fc15f4aa4cad3b38394a34f3e9db8b719f5083ab114ddc649e1bc3318327ffa8ca
+  languageName: node
+  linkType: hard
+
 "typescript@patch:typescript@npm%3A^4.7.3#optional!builtin<compat/typescript>":
   version: 4.9.5
   resolution: "typescript@patch:typescript@npm%3A4.9.5#optional!builtin<compat/typescript>::version=4.9.5&hash=289587"
@@ -4154,6 +4165,16 @@ __metadata:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: 0b1a831cfef3e967a806ff1d4b28cfe4d3b71d06195ae0c8ece14c6353ec20165ae9b79c18be93ecd33529690648189aef56234c88b26aadb500b81ddb902cfc
+  languageName: node
+  linkType: hard
+
+"typescript@patch:typescript@npm%3A^5.2.2#optional!builtin<compat/typescript>":
+  version: 5.2.2
+  resolution: "typescript@patch:typescript@npm%3A5.2.2#optional!builtin<compat/typescript>::version=5.2.2&hash=5da071"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: b52454ea2b8ba479dd655c4e55ae57c1cec4af21c83c3aa9ab280879a53f3ef4314587b0cfe5e6dd0a082aca4409fef70d0763e762cd0a3e8b38ef70d1dbad67
   languageName: node
   linkType: hard
 
