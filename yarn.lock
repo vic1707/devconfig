@@ -572,7 +572,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:5.62.0, @typescript-eslint/utils@npm:^5.10.0, @typescript-eslint/utils@npm:^5.55.0, @typescript-eslint/utils@npm:^5.59.8":
+"@typescript-eslint/utils@npm:5.62.0, @typescript-eslint/utils@npm:^5.10.0, @typescript-eslint/utils@npm:^5.59.8":
   version: 5.62.0
   resolution: "@typescript-eslint/utils@npm:5.62.0"
   dependencies:
@@ -590,7 +590,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:^6.2.0":
+"@typescript-eslint/utils@npm:^6.2.0, @typescript-eslint/utils@npm:^6.4.0":
   version: 6.7.0
   resolution: "@typescript-eslint/utils@npm:6.7.0"
   dependencies:
@@ -643,7 +643,7 @@ __metadata:
     eslint-plugin-react: "npm:^7.32.2"
     eslint-plugin-react-hooks: "npm:^4.6.0"
     eslint-plugin-simple-import-sort: "npm:^10.0.0"
-    eslint-plugin-solid: "npm:^0.12.1"
+    eslint-plugin-solid: "npm:^0.13.0"
     eslint-plugin-sort-destructure-keys: "npm:^1.5.0"
     eslint-plugin-unused-imports: "npm:^3.0.0"
     eslint-plugin-vitest: "npm:^0.2.6"
@@ -1633,11 +1633,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-solid@npm:^0.12.1":
-  version: 0.12.1
-  resolution: "eslint-plugin-solid@npm:0.12.1"
+"eslint-plugin-solid@npm:^0.13.0":
+  version: 0.13.0
+  resolution: "eslint-plugin-solid@npm:0.13.0"
   dependencies:
-    "@typescript-eslint/utils": "npm:^5.55.0"
+    "@typescript-eslint/utils": "npm:^6.4.0"
     is-html: "npm:^2.0.0"
     jsx-ast-utils: "npm:^3.3.3"
     kebab-case: "npm:^1.0.2"
@@ -1645,7 +1645,7 @@ __metadata:
     style-to-object: "npm:^0.3.0"
   peerDependencies:
     eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
-  checksum: 10dd0919de39fe9956a5d592da7db1d05e87597ddf82b0cda7b6367b0705df5adbc0fd8e91bb1fef30991b3a526e7a2cd4fc60b9d6f3306eeda77ac3fcd643e7
+  checksum: 1965af35e75b42bbd59e3d08738463a475f36c1dcbbd7aa7d75e1b91983fbbd08a5fd64dc58313787d27dfd75b5811deb24cdea7ae7d7af81037f772c705ce10
   languageName: node
   linkType: hard
 
