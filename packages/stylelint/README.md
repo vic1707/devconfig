@@ -10,7 +10,7 @@ and create an `.stylelintrc.json` file with the following content
 
 ```json
 {
-  "extends": "@vic1707/stylelint-config"
+    "extends": "@vic1707/stylelint-config"
 }
 ```
 
@@ -18,8 +18,8 @@ Here are the scripts I use to lint my code:
 
 ```json
 {
-  "stylelint": "stylelint src/**/*.{css,scss,less}",
-  "stylelint:fix": "stylelint --fix src/**/*.{css,scss,less}"
+    "stylelint": "stylelint src/**/*.{css,scss,less}",
+    "stylelint:fix": "stylelint --fix src/**/*.{css,scss,less}"
 }
 ```
 

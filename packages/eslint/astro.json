@@ -1,8 +1,8 @@
 {
-  "$schema": "https://json.schemastore.org/eslintrc",
-  "plugins": ["astro"],
-  "extends": [".eslintrc", "plugin:astro/recommended"],
-  "parserOptions": {
-    "extraFileExtensions": [".astro"]
-  }
+    "$schema": "https://json.schemastore.org/eslintrc",
+    "plugins": ["astro"],
+    "extends": [".eslintrc", "plugin:astro/recommended"],
+    "parserOptions": {
+        "extraFileExtensions": [".astro"]
+    }
 }

@@ -28,8 +28,8 @@ Here are the scripts I use to lint my code:
 
 ```json
 {
-  "format": "prettier --check \"**/*.{js,jsx,ts,tsx,md,mdx,scss,css,json,yml}\" -c",
-  "format:fix": "prettier --write \"**/*.{js,jsx,ts,tsx,md,mdx,scss,css,json,yml}\""
+    "format": "prettier --check \"**/*.{js,jsx,ts,tsx,md,mdx,scss,css,json,yml}\" -c",
+    "format:fix": "prettier --write \"**/*.{js,jsx,ts,tsx,md,mdx,scss,css,json,yml}\""
 }
 ```
 

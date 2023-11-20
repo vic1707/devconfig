@@ -1,63 +1,63 @@
 {
-  "$schema": "https://json.schemastore.org/prettierrc",
-  "arrowParens": "always",
-  "endOfLine": "lf",
-  "htmlWhitespaceSensitivity": "css",
-  "jsxSingleQuote": false,
-  "overrides": [
-    {
-      "files": "*.md",
-      "options": {
-        "parser": "markdown"
-      }
-    },
-    {
-      "files": "*.json",
-      "options": {
-        "parser": "json"
-      }
-    },
-    {
-      "files": "*.yml",
-      "options": {
-        "parser": "yaml"
-      }
-    },
-    {
-      "files": "*.yaml",
-      "options": {
-        "parser": "yaml"
-      }
-    },
-    {
-      "files": ["*.scss", "*.sass", "*.css"],
-      "options": {
-        "parser": "css"
-      }
-    },
-    {
-      "files": "*.astro",
-      "options": {
-        "parser": "astro"
-      }
-    },
-    {
-      "files": "*.html",
-      "options": {
-        "parser": "html"
-      }
-    },
-    {
-      "files": "*.svg",
-      "options": {
-        "parser": "html"
-      }
-    }
-  ],
-  "parser": "typescript",
-  "printWidth": 120,
-  "singleQuote": true,
-  "tabWidth": 2,
-  "trailingComma": "none",
-  "useTabs": false
+    "$schema": "https://json.schemastore.org/prettierrc",
+    "arrowParens": "always",
+    "endOfLine": "lf",
+    "htmlWhitespaceSensitivity": "css",
+    "jsxSingleQuote": false,
+    "overrides": [
+        {
+            "files": "*.md",
+            "options": {
+                "parser": "markdown"
+            }
+        },
+        {
+            "files": "*.json",
+            "options": {
+                "parser": "json"
+            }
+        },
+        {
+            "files": "*.yml",
+            "options": {
+                "parser": "yaml"
+            }
+        },
+        {
+            "files": "*.yaml",
+            "options": {
+                "parser": "yaml"
+            }
+        },
+        {
+            "files": ["*.scss", "*.sass", "*.css"],
+            "options": {
+                "parser": "css"
+            }
+        },
+        {
+            "files": "*.astro",
+            "options": {
+                "parser": "astro"
+            }
+        },
+        {
+            "files": "*.html",
+            "options": {
+                "parser": "html"
+            }
+        },
+        {
+            "files": "*.svg",
+            "options": {
+                "parser": "html"
+            }
+        }
+    ],
+    "parser": "typescript",
+    "printWidth": 120,
+    "singleQuote": true,
+    "tabWidth": 4,
+    "trailingComma": "all",
+    "useTabs": false
 }

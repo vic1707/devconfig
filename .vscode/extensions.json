@@ -1,10 +1,10 @@
 {
-  "recommendations": [
-    // Eslint
-    "dbaeumer.vscode-eslint",
-    // Prettier
-    "esbenp.prettier-vscode",
-    // Stylelint
-    "stylelint.vscode-stylelint"
-  ]
+    "recommendations": [
+        // Eslint
+        "dbaeumer.vscode-eslint",
+        // Prettier
+        "esbenp.prettier-vscode",
+        // Stylelint
+        "stylelint.vscode-stylelint"
+    ]
 }
