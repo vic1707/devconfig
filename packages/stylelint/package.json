@@ -12,7 +12,7 @@
     "access": "public"
   },
   "dependencies": {
-    "postcss": "^8.4.29",
+    "postcss": "^8.4.31",
     "postcss-html": "^1.5.0",
     "stylelint-config-astro": "^1.0.4",
     "stylelint-config-prettier-scss": "^1.0.0",
