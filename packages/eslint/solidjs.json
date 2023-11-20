@@ -1,22 +1,22 @@
 {
-  "$schema": "https://json.schemastore.org/eslintrc",
-  "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
+    "$schema": "https://json.schemastore.org/eslintrc",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": "latest",
+        "sourceType": "module"
     },
-    "ecmaVersion": "latest",
-    "sourceType": "module"
-  },
-  "plugins": ["solid"],
-  "extends": [".eslintrc", "plugin:solid/typescript"],
-  "rules": {
-    "solid/no-react-specific-props": "error",
-    "solid/reactivity": "error",
-    "solid/no-innerhtml": "error",
-    "solid/no-array-handlers": "error",
-    "solid/prefer-show": "error",
-    "solid/no-proxy-apis": "error",
-    "solid/no-react-deps": "error",
-    "solid/imports": "error"
-  }
+    "plugins": ["solid"],
+    "extends": [".eslintrc", "plugin:solid/typescript"],
+    "rules": {
+        "solid/no-react-specific-props": "error",
+        "solid/reactivity": "error",
+        "solid/no-innerhtml": "error",
+        "solid/no-array-handlers": "error",
+        "solid/prefer-show": "error",
+        "solid/no-proxy-apis": "error",
+        "solid/no-react-deps": "error",
+        "solid/imports": "error"
+    }
 }
