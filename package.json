@@ -17,10 +17,10 @@
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
     "@vic1707/prettier": "*",
-    "prettier": "^2.8.8",
-    "turbo": "^1.10.7"
+    "prettier": "^3.1.0",
+    "turbo": "^1.10.16"
   },
-  "packageManager": "yarn@4.0.0-rc.45",
+  "packageManager": "yarn@4.0.2",
   "engines": {
     "node": ">=20.3.0",
     "yarn": ">=4.0.0-rc.35"
