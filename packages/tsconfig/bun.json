@@ -1,0 +1,14 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Bun",
+    "extends": "./base.json",
+    "compilerOptions": {
+        "lib": ["ESNext"],
+        "noEmit": true,
+        "allowImportingTsExtensions": true,
+        "downlevelIteration": true,
+        "types": [
+            "bun-types"
+        ]
+    }
+}
