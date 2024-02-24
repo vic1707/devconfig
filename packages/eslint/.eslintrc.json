@@ -34,9 +34,12 @@
 
         // alphabetize destructured object keys
         "sort-destructure-keys/sort-destructure-keys": ["error", { "caseSensitive": false }],
-
+        
         // force shorthand for object properties when possible
         "object-shorthand": ["error", "always"],
+        
+        "no-unused-vars": ["warn", { "varsIgnorePattern": "^_", "argsIgnorePattern": "^_" }],
+        "no-empty-function": ["error", { "allow": ["arrowFunctions"] }],
 
         //
         // @typescript-eslint
@@ -55,7 +58,6 @@
         "@typescript-eslint/consistent-type-imports": "error",
         "@typescript-eslint/explicit-function-return-type": "error",
         "@typescript-eslint/explicit-module-boundary-types": "error",
-        "@typescript-eslint/no-empty-function": ["error", { "allow": ["arrowFunctions"] }],
         "@typescript-eslint/no-explicit-any": "error",
         "@typescript-eslint/no-namespace": ["error", { "allowDeclarations": true }],
         "@typescript-eslint/prefer-for-of": "error",
@@ -72,7 +74,6 @@
                 "allowRegExp": true
             }
         ],
-        "@typescript-eslint/no-unused-vars": ["warn", { "varsIgnorePattern": "^_", "argsIgnorePattern": "^_" }],
 
         //
         // eslint-plugin-import
