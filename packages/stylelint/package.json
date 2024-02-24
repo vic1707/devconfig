@@ -12,8 +12,8 @@
     "access": "public"
   },
   "dependencies": {
-    "postcss": "^8.4.33",
-    "postcss-html": "^1.5.0",
+    "postcss": "^8.4.35",
+    "postcss-html": "^1.6.0",
     "stylelint-config-astro": "^1.0.4",
     "stylelint-config-prettier-scss": "^1.0.0",
     "stylelint-config-sass-guidelines": "^11.0.0"
