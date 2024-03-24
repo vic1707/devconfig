@@ -1,6 +1,6 @@
 {
     "$schema": "http://json.schemastore.org/stylelintrc.json",
-    "extends": ["stylelint-config-prettier-scss", "stylelint-config-sass-guidelines"],
+    "extends": ["stylelint-config-sass-guidelines"],
     "rules": {
         "max-nesting-depth": [
             5,
