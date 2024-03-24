@@ -4,6 +4,7 @@
     "endOfLine": "lf",
     "htmlWhitespaceSensitivity": "css",
     "jsxSingleQuote": false,
+    "plugins": ["prettier-plugin-astro"],
     "overrides": [
         {
             "files": "*.md",
