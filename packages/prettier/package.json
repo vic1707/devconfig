@@ -15,6 +15,6 @@
     "prettier-plugin-astro": "latest"
   },
   "peerDependencies": {
-    "prettier": "latest"
+    "prettier": "*"
   }
 }

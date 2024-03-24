@@ -5,6 +5,13 @@ __metadata:
   version: 8
   cacheKey: 10
 
+"@astrojs/compiler@npm:^1.5.5":
+  version: 1.8.2
+  resolution: "@astrojs/compiler@npm:1.8.2"
+  checksum: 10/1c24274b1045c33893f570b9a2f66ee96e1ac4e976cf5f996146d63086f052d34b5b7456c274f80ef69541ca2d9beef07afe9f0df239c1ed939bade6334e2baa
+  languageName: node
+  linkType: hard
+
 "@astrojs/compiler@npm:^2.0.0":
   version: 2.7.0
   resolution: "@astrojs/compiler@npm:2.7.0"
@@ -286,8 +293,8 @@ __metadata:
   linkType: hard
 
 "@darraghor/eslint-plugin-nestjs-typed@npm:^5.0.3":
-  version: 5.0.3
-  resolution: "@darraghor/eslint-plugin-nestjs-typed@npm:5.0.3"
+  version: 5.0.4
+  resolution: "@darraghor/eslint-plugin-nestjs-typed@npm:5.0.4"
   dependencies:
     "@typescript-eslint/scope-manager": "npm:7.2.0"
     "@typescript-eslint/utils": "npm:7.2.0"
@@ -297,7 +304,7 @@ __metadata:
     "@typescript-eslint/parser": ^7.0.0
     class-validator: "*"
     eslint: ^8.56.0
-  checksum: 10/b3e096cdc578e02f2443e6da12583ce662b1aee2403d50e7683207a78656185d7b81dffddcef2fddaa01941257719b42bee6484bbcb72159d2e3226484ffe6b8
+  checksum: 10/a7bda2a85335a85c225b666912360abe4ee7d556e166a850d1550b674c328070749a2f91b4a31b364d25b53d47d69ac6bc13b832cf1871249dd3ae86c3da567d
   languageName: node
   linkType: hard
 
@@ -771,9 +778,20 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@vic1707/prettier@npm:^2.0.1, @vic1707/prettier@workspace:packages/prettier":
+"@vic1707/prettier@npm:latest":
+  version: 2.0.1
+  resolution: "@vic1707/prettier@npm:2.0.1"
+  peerDependencies:
+    prettier: "*"
+  checksum: 10/87b82b9132721c62c4e8be123c212c1df1b72573ff6b15217543d34cf3f40d2011cbb2640ece94aad0faf9c88e6d7d2f42792683120b5d02460cacbc6d39027c
+  languageName: node
+  linkType: hard
+
+"@vic1707/prettier@workspace:packages/prettier":
   version: 0.0.0-use.local
   resolution: "@vic1707/prettier@workspace:packages/prettier"
+  dependencies:
+    prettier-plugin-astro: "npm:latest"
   peerDependencies:
     prettier: "*"
   languageName: unknown
@@ -3264,6 +3282,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"prettier-plugin-astro@npm:latest":
+  version: 0.13.0
+  resolution: "prettier-plugin-astro@npm:0.13.0"
+  dependencies:
+    "@astrojs/compiler": "npm:^1.5.5"
+    prettier: "npm:^3.0.0"
+    sass-formatter: "npm:^0.7.6"
+  checksum: 10/ed86b9ea90320530493742ca2d7ad141a52abea0d263e2871bb0d440772f7e61100502ead88b9366833c2ee35fb199a1d133ea76721497e22555ee9d917150be
+  languageName: node
+  linkType: hard
+
 "prettier@npm:^2.7.1":
   version: 2.8.8
   resolution: "prettier@npm:2.8.8"
@@ -3273,7 +3302,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^3.2.5":
+"prettier@npm:^3.0.0, prettier@npm:^3.2.5":
   version: 3.2.5
   resolution: "prettier@npm:3.2.5"
   bin:
@@ -3492,7 +3521,7 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@changesets/cli": "npm:^2.27.1"
-    "@vic1707/prettier": "npm:^2.0.1"
+    "@vic1707/prettier": "npm:latest"
     prettier: "npm:^3.2.5"
     turbo: "npm:^1.13.0"
   languageName: unknown
@@ -3504,6 +3533,13 @@ __metadata:
   dependencies:
     queue-microtask: "npm:^1.2.2"
   checksum: 10/cb4f97ad25a75ebc11a8ef4e33bb962f8af8516bb2001082ceabd8902e15b98f4b84b4f8a9b222e5d57fc3bd1379c483886ed4619367a7680dad65316993021d
+  languageName: node
+  linkType: hard
+
+"s.color@npm:0.0.15":
+  version: 0.0.15
+  resolution: "s.color@npm:0.0.15"
+  checksum: 10/8ddfeb4d92fc92fadce3968f9c99001e4b59812d677d46073c96a6b1d87e2842d259e07b3de56487f4a7acf3927496afee4cd89587cc21e57693e2d3644140e1
   languageName: node
   linkType: hard
 
@@ -3534,6 +3570,15 @@ __metadata:
   version: 2.1.2
   resolution: "safer-buffer@npm:2.1.2"
   checksum: 10/7eaf7a0cf37cc27b42fb3ef6a9b1df6e93a1c6d98c6c6702b02fe262d5fcbd89db63320793b99b21cb5348097d0a53de81bd5f4e8b86e20cc9412e3f1cfb4e83
+  languageName: node
+  linkType: hard
+
+"sass-formatter@npm:^0.7.6":
+  version: 0.7.9
+  resolution: "sass-formatter@npm:0.7.9"
+  dependencies:
+    suf-log: "npm:^2.5.3"
+  checksum: 10/aed84f17d8b7f4c7621ce6c306a5eccb756ed701e801e97730a444061ee3c0476fd79b01492096598cd4f700c45152e7b18b096a343823b4cdcba823a23a376b
   languageName: node
   linkType: hard
 
@@ -3904,6 +3949,15 @@ __metadata:
   peerDependencies:
     stylelint: ^16.0.2
   checksum: 10/87a7af5775cb7b361b3ac143c5fe1dd59c25466f3255b501dd1bff3084d3af25cc7c6e00ec4a0bda18c30be481c885ff13255fdaa8245576aa44f38bfcfe4f70
+  languageName: node
+  linkType: hard
+
+"suf-log@npm:^2.5.3":
+  version: 2.5.3
+  resolution: "suf-log@npm:2.5.3"
+  dependencies:
+    s.color: "npm:0.0.15"
+  checksum: 10/fefcc75753cb5b2af7f7521fb8a79bf19a57580a2c96df49e6154630934123a740cf51abc5fddf8066c3f335ae95efa1c8b3ef969f9653fbd1ac0cc58e718005
   languageName: node
   linkType: hard
 
