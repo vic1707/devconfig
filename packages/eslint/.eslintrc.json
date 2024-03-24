@@ -34,10 +34,10 @@
 
         // alphabetize destructured object keys
         "sort-destructure-keys/sort-destructure-keys": ["error", { "caseSensitive": false }],
-        
+
         // force shorthand for object properties when possible
         "object-shorthand": ["error", "always"],
-        
+
         "no-unused-vars": ["warn", { "varsIgnorePattern": "^_", "argsIgnorePattern": "^_" }],
         "no-empty-function": ["error", { "allow": ["arrowFunctions", "constructors"] }],
 
