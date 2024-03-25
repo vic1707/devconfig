@@ -755,7 +755,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": "npm:^7.3.1"
     "@typescript-eslint/parser": "npm:^7.3.1"
     eslint-config-prettier: "npm:^9.1.0"
-    eslint-plugin-astro: "npm:^0.32.0"
+    eslint-plugin-astro: "npm:^0.33.1"
     eslint-plugin-import: "npm:^2.29.1"
     eslint-plugin-jest: "npm:^27.9.0"
     eslint-plugin-prettier: "npm:^5.1.3"
@@ -1683,9 +1683,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-astro@npm:^0.32.0":
-  version: 0.32.0
-  resolution: "eslint-plugin-astro@npm:0.32.0"
+"eslint-plugin-astro@npm:^0.33.1":
+  version: 0.33.1
+  resolution: "eslint-plugin-astro@npm:0.33.1"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.2.0"
     "@jridgewell/sourcemap-codec": "npm:^1.4.14"
@@ -1697,7 +1697,7 @@ __metadata:
     postcss-selector-parser: "npm:^6.0.10"
   peerDependencies:
     eslint: ">=7.0.0"
-  checksum: 10/0cfb747519b1f45f8767bd8cfa067c7b83baee2da263873b763667fea4bb032f89c152d0ea36ca81b0ec3dbdf1fddfa1e56efda150a1f3b45df57e1bbe015a09
+  checksum: 10/2121e5e11071a52f985ebac93912ce2f338c74df4de0449afb42ec5281417a1764f5331cfe3fef39896ed6804c25484af4c79ab85e77f8809923f525e7e06320
   languageName: node
   linkType: hard
 
