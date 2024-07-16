@@ -10,7 +10,7 @@ and add these lines to your `tsconfig.json`
 
 ```json
 "extends": "@vic1707/tsconfig/base.json", // or any other config file
-"include": ["src", ".eslintrc.js"]        // required for eslint
+"include": ["src"]
 ```
 
 Original repo can be found here: https://github.com/vic1707/devconfig
