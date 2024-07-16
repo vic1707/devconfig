@@ -16,7 +16,7 @@ export default [
     eslint.configs.recommended,
     prettierRecommended,
     promise.configs['flat/recommended'],
-    ...jsdoc.configs['flat/recommended-error'],
+    jsdoc.configs['flat/recommended-error'],
     {
         plugins: {
             'simple-import-sort': simpleImportSort,

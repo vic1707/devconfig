@@ -20,7 +20,7 @@ export default [
     ...jsConfigs,
     ...TSconfigs.strictTypeChecked,
     ...TSconfigs.stylisticTypeChecked,
-    ...jsdoc.configs['flat/recommended-typescript-flavor-error'],
+    jsdoc.configs['flat/recommended-typescript-flavor-error'],
     {
         rules: {
             // required by plugin `unused-imports` in js config
