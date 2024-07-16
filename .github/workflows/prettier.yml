@@ -1,4 +1,4 @@
-name: Check formatting
+name: Sanity checks
 
 on:
     pull_request:
@@ -6,7 +6,7 @@ on:
             - main
 
 jobs:
-    prettier:
+    sanity:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout
@@ -17,3 +17,5 @@ jobs:
               run: yarn
             - name: Run Prettier
               run: yarn run format
+            - name: Run Eslint
+              run: yarn run lint
