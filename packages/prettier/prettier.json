@@ -20,7 +20,7 @@
         {
             "files": "*.json",
             "options": {
-                "parser": "jsonc"
+                "parser": "json"
             }
         },
         {
