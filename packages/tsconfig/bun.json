@@ -5,7 +5,6 @@
     "compilerOptions": {
         "lib": ["ESNext"],
         "noEmit": true,
-        "allowImportingTsExtensions": true,
         "downlevelIteration": true,
         "types": ["bun-types"]
     }

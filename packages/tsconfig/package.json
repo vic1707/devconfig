@@ -1,6 +1,6 @@
 {
   "name": "@vic1707/tsconfig",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "main": "base.json",
   "author": "Victor LEFEBVRE",
   "license": "MIT",
