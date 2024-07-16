@@ -9,14 +9,9 @@ npm install --save-dev @vic1707/eslint-config eslint
 and create an `eslint.config.js` file with the following content
 
 ```js
-module.exports = {
-    root: true,
-    extends: ['@vic1707'],
-    parserOptions: {
-        project: './tsconfig.json',
-        tsconfigRootDir: __dirname,
-    },
-};
+import vic1707TSConfig from '@vic1707/eslint-config/eslint.ts.config.js';
+
+export default vic1707Config;
 ```
 
 If you're using typescript you'll want to add some extra rules to your `tsconfig.json` file

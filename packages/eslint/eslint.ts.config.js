@@ -9,6 +9,13 @@ import jsConfigs from './eslint.js.config.js';
  * @type {FlatConfig[]}
  */
 export default [
+    {
+        languageOptions: {
+            parserOptions: {
+                project: true,
+            },
+        },
+    },
     ...jsConfigs,
     ...TSconfigs.strictTypeChecked,
     ...TSconfigs.stylisticTypeChecked,
@@ -16,6 +23,23 @@ export default [
         rules: {
             // required by plugin `unused-imports` in js config
             '@typescript-eslint/no-unused-vars': 'off',
+            // assuming we import ts-reset/promise-catch patch
+            '@typescript-eslint/use-unknown-in-catch-callback-variable': 'off',
+
+            '@typescript-eslint/array-type': [
+                'error',
+                {
+                    default: 'generic',
+                    readonly: 'generic',
+                },
+            ],
+            '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
+            '@typescript-eslint/no-misused-promises': [
+                'error',
+                {
+                    checksVoidReturn: false,
+                },
+            ],
         },
     },
 ];

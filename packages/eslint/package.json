@@ -1,6 +1,6 @@
 {
   "name": "@vic1707/eslint-config",
-  "version": "7.0.0",
+  "version": "7.0.1",
   "main": "eslint.js.config.js",
   "author": "Victor LEFEBVRE",
   "license": "MIT",
