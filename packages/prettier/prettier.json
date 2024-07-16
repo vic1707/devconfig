@@ -4,6 +4,11 @@
     "endOfLine": "lf",
     "htmlWhitespaceSensitivity": "css",
     "jsxSingleQuote": false,
+    "printWidth": 120,
+    "singleQuote": true,
+    "tabWidth": 4,
+    "trailingComma": "all",
+    "useTabs": false,
     "plugins": ["prettier-plugin-astro"],
     "overrides": [
         {
@@ -15,17 +20,11 @@
         {
             "files": "*.json",
             "options": {
-                "parser": "json"
+                "parser": "jsonc"
             }
         },
         {
-            "files": "*.yml",
-            "options": {
-                "parser": "yaml"
-            }
-        },
-        {
-            "files": "*.yaml",
+            "files": ["*.yml", "*.yaml"],
             "options": {
                 "parser": "yaml"
             }
@@ -53,12 +52,12 @@
             "options": {
                 "parser": "html"
             }
+        },
+        {
+            "files": ["*.ts", "*.tsx"],
+            "options": {
+                "parser": "typescript"
+            }
         }
-    ],
-    "parser": "typescript",
-    "printWidth": 120,
-    "singleQuote": true,
-    "tabWidth": 4,
-    "trailingComma": "all",
-    "useTabs": false
+    ]
 }
