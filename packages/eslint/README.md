@@ -6,7 +6,7 @@ to use this package install it with
 npm install --save-dev @vic1707/eslint-config eslint
 ```
 
-and create an `.eslintrc.js` file with the following content
+and create an `eslint.config.js` file with the following content
 
 ```js
 module.exports = {
@@ -24,7 +24,7 @@ If you're using typescript you'll want to add some extra rules to your `tsconfig
 ```json
 {
     // existing config
-    "include": [".eslintrc.js" /* existing source dirs*/]
+    "include": ["estlint.config.js" /* existing source dirs*/]
 }
 ```
 
@@ -32,8 +32,8 @@ Here are the scripts I use to lint my code:
 
 ```json
 {
-    "lint": "eslint src --ext .ts,.tsx",
-    "lint:fix": "eslint src --ext .ts,.tsx --fix"
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
 }
 ```
 
