@@ -3,6 +3,7 @@
  */
 import eslint from '@eslint/js';
 import imports from 'eslint-plugin-import';
+import jsdoc from 'eslint-plugin-jsdoc';
 import prettierRecommended from 'eslint-plugin-prettier/recommended';
 import promise from 'eslint-plugin-promise';
 import simpleImportSort from 'eslint-plugin-simple-import-sort';
@@ -15,6 +16,7 @@ export default [
     eslint.configs.recommended,
     prettierRecommended,
     promise.configs['flat/recommended'],
+    ...jsdoc.configs['flat/recommended-error'],
     {
         plugins: {
             'simple-import-sort': simpleImportSort,

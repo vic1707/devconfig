@@ -1,6 +1,7 @@
 /**
  * @typedef {import('eslint').Linter.FlatConfig} FlatConfig
  */
+import jsdoc from 'eslint-plugin-jsdoc';
 import { configs as TSconfigs } from 'typescript-eslint';
 
 import jsConfigs from './eslint.js.config.js';
@@ -19,6 +20,7 @@ export default [
     ...jsConfigs,
     ...TSconfigs.strictTypeChecked,
     ...TSconfigs.stylisticTypeChecked,
+    ...jsdoc.configs['flat/recommended-typescript-flavor-error'],
     {
         rules: {
             // required by plugin `unused-imports` in js config
@@ -31,6 +33,13 @@ export default [
                 {
                     default: 'generic',
                     readonly: 'generic',
+                },
+            ],
+            '@typescript-eslint/switch-exhaustiveness-check': [
+                'error',
+                {
+                    allowDefaultCaseForExhaustiveSwitch: false,
+                    requireDefaultForNonUnion: true,
                 },
             ],
             '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
