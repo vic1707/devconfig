@@ -35,18 +35,21 @@ export default [
                     readonly: 'generic',
                 },
             ],
+            '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
+            '@typescript-eslint/consistent-type-imports': 'error',
+            '@typescript-eslint/explicit-function-return-type': 'error',
+            '@typescript-eslint/explicit-module-boundary-types': 'error',
+            '@typescript-eslint/no-misused-promises': [
+                'error',
+                {
+                    checksVoidReturn: false,
+                },
+            ],
             '@typescript-eslint/switch-exhaustiveness-check': [
                 'error',
                 {
                     allowDefaultCaseForExhaustiveSwitch: false,
                     requireDefaultForNonUnion: true,
-                },
-            ],
-            '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
-            '@typescript-eslint/no-misused-promises': [
-                'error',
-                {
-                    checksVoidReturn: false,
                 },
             ],
         },
