@@ -18,8 +18,8 @@ If you're using typescript you'll want to add some extra rules to your `tsconfig
 
 ```json
 {
-    // existing config
-    "include": ["estlint.config.js" /* existing source dirs*/]
+	// existing config
+	"include": ["estlint.config.js" /* existing source dirs*/]
 }
 ```
 
@@ -27,8 +27,8 @@ Here are the scripts I use to lint my code:
 
 ```json
 {
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+	"lint": "eslint .",
+	"lint:fix": "eslint . --fix"
 }
 ```
 

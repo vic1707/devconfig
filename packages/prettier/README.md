@@ -28,8 +28,8 @@ Here are the scripts I use to lint my code:
 
 ```json
 {
-    "format": "prettier -c .",
-    "format:fix": "prettier -w ."
+	"format": "prettier -c .",
+	"format:fix": "prettier -w ."
 }
 ```
 
