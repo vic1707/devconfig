@@ -1,20 +1,20 @@
 {
-  "name": "@vic1707/prettier",
-  "version": "4.0.0",
-  "main": "prettier.json",
-  "author": "Victor LEFEBVRE",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vic1707/devconfig.git"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "dependencies": {
-    "prettier-plugin-astro": "0.14.1"
-  },
-  "peerDependencies": {
-    "prettier": "*"
-  }
+	"name": "@vic1707/prettier",
+	"version": "4.0.1",
+	"main": "prettier.json",
+	"author": "Victor LEFEBVRE",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/vic1707/devconfig.git"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"dependencies": {
+		"prettier-plugin-astro": "0.14.1"
+	},
+	"peerDependencies": {
+		"prettier": "*"
+	}
 }

@@ -1,31 +1,29 @@
 {
-  "author": "Victor LEFEBVRE",
-  "license": "MIT",
-  "type": "module",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vic1707/devconfig.git"
-  },
-  "scripts": {
-    "format": "prettier -c .",
-    "format:fix": "prettier -w .",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "publish": "changeset publish",
-    "upgrade-packages": "yarn upgrade-interactive"
-  },
-  "workspaces": [
-    "packages/*"
-  ],
-  "devDependencies": {
-    "@changesets/cli": "^2.27.7",
-    "eslint": "^9.9.1",
-    "prettier": "^3.3.3",
-    "turbo": "^2.0.14"
-  },
-  "packageManager": "yarn@4.3.1",
-  "engines": {
-    "node": ">=22.2.0",
-    "yarn": ">=4.3.1"
-  }
+	"author": "Victor LEFEBVRE",
+	"license": "MIT",
+	"type": "module",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/vic1707/devconfig.git"
+	},
+	"scripts": {
+		"format": "prettier -c .",
+		"format:fix": "prettier -w .",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix",
+		"publish": "changeset publish",
+		"upgrade-packages": "yarn upgrade-interactive"
+	},
+	"workspaces": ["packages/*"],
+	"devDependencies": {
+		"@changesets/cli": "2.27.7",
+		"eslint": "9.9.1",
+		"prettier": "3.3.3",
+		"turbo": "2.0.14"
+	},
+	"packageManager": "yarn@4.3.1",
+	"engines": {
+		"node": ">=22.2.0",
+		"yarn": ">=4.3.1"
+	}
 }
