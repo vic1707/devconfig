@@ -7,10 +7,10 @@ import JSConfig from './packages/eslint/eslint.js.config.js';
  * @type {FlatConfig[]}
  */
 export default [
-    ...JSConfig,
-    {
-        rules: {
-            'import/no-default-export': 'off',
-        },
-    },
+	...JSConfig,
+	{
+		rules: {
+			'import/no-default-export': 'off',
+		},
+	},
 ];

@@ -1,10 +1,10 @@
 {
-    "$schema": "https://json.schemastore.org/tsconfig",
-    "display": "NestJS Vite",
-    "extends": "./vite.json",
-    "compilerOptions": {
-        "module": "commonjs",
-        "emitDecoratorMetadata": true,
-        "experimentalDecorators": true
-    }
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"display": "NestJS Vite",
+	"extends": "./vite.json",
+	"compilerOptions": {
+		"module": "commonjs",
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true
+	}
 }
