@@ -1,28 +1,28 @@
 {
-  "name": "@vic1707/tsconfig",
-  "version": "5.0.3",
-  "main": "base.json",
-  "author": "Victor LEFEBVRE",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vic1707/devconfig.git"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  },
-  "files": [
-    "base.json",
-    "bun.json",
-    "nestjs-vite.json",
-    "nestjs.json",
-    "react-vite.json",
-    "react.json",
-    "solidjs-vite.json",
-    "solidjs.json",
-    "vite.json"
-  ]
+	"name": "@vic1707/tsconfig",
+	"version": "5.0.5",
+	"main": "base.json",
+	"author": "Victor LEFEBVRE",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/vic1707/devconfig.git"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"peerDependencies": {
+		"typescript": "5.0.0"
+	},
+	"files": [
+		"base.json",
+		"bun.json",
+		"nestjs-vite.json",
+		"nestjs.json",
+		"react-vite.json",
+		"react.json",
+		"solidjs-vite.json",
+		"solidjs.json",
+		"vite.json"
+	]
 }
